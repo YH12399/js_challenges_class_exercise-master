@@ -7,3 +7,4 @@ function challeenge1 {
         document.querySelector("#emailDiv").style.display = "none";
     }
 }
+
