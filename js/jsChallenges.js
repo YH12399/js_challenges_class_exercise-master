@@ -1,3 +1,5 @@
+//color of the day: Coral -- Ziqian Wang, Jiongyu Chen
+
 function challenge1() {
     console.log("Function is being called!");
     let checkBox = document.getElementById("subscribe").checked;
@@ -27,6 +29,29 @@ document.addEventListener("click", function(){
         document.getElementById("home").disabled = false;
     }
 })
+
+
+
+
+
+function challenge3(){
+    let varClassStandingBox = document.getElementsByName("standing");
+    let varGradDateBox = document.getElementById("gradDate");
+
+    varClassStandingBox.addEventListener("click", selectValidtor());
+
+    function selectValidtor(){
+        if(varClassStandingBox.checked == false){
+
+
+        }
+    }
+    }
+
+
+
+
+
 
 
 
