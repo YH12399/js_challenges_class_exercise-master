@@ -18,5 +18,16 @@ varCheckbox.addEventListener("click", function() {
     }});
 
 
+let CheckBox = document.getElementById("sameAddress");
+document.addEventListener("click", function(){
+    if (CheckBox.checked) {
+        document.getElementById("home").value = document.getElementById("bill").value;
+        document.getElementById("home").disabled = true;
+    } else {
+        document.getElementById("home").disabled = false;
+    }
+})
+
+
 
 
