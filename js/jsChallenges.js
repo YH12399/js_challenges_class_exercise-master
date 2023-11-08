@@ -1,4 +1,4 @@
-function challenge1() {
+function challeenge1 {
     console.log("Function is being called!");
     let checkBox = document.getElementById("subscribe").checked;
     if (checkBox) {
